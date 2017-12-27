@@ -424,352 +424,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
 <h1>Awesome Go</h1>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel2">
-<li><a href="#_contributing">Contributing</a></li>
-<li><a href="#_contents">Contents</a></li>
-<li><a href="#_audio_and_music">Audio and Music</a></li>
-<li><a href="#_authentication_and_oauth">Authentication and OAuth</a></li>
-<li><a href="#_command_line">Command Line</a>
-<ul class="sectlevel2">
-<li><a href="#_standard_cli">Standard CLI</a></li>
-<li><a href="#_advanced_console_uis">Advanced Console UIs</a></li>
-</ul>
-</li>
-<li><a href="#_configuration">Configuration</a></li>
-<li><a href="#_continuous_integration">Continuous Integration</a></li>
-<li><a href="#_css_preprocessors">CSS Preprocessors</a></li>
-<li><a href="#_data_structures">Data Structures</a></li>
-<li><a href="#_database">Database</a></li>
-<li><a href="#_database_drivers">Database Drivers</a></li>
-<li><a href="#_date_and_time">Date and Time</a></li>
-<li><a href="#_distributed_systems">Distributed Systems</a></li>
-<li><a href="#_email">Email</a></li>
-<li><a href="#_embeddable_scripting_languages">Embeddable Scripting Languages</a></li>
-<li><a href="#_files">Files</a></li>
-<li><a href="#_financial">Financial</a></li>
-<li><a href="#_forms">Forms</a></li>
-<li><a href="#_game_development">Game Development</a></li>
-<li><a href="#_generation_and_generics">Generation and Generics</a></li>
-<li><a href="#_go_compilers">Go Compilers</a></li>
-<li><a href="#_goroutines">Goroutines</a></li>
-<li><a href="#_gui">GUI</a></li>
-<li><a href="#_hardware">Hardware</a></li>
-<li><a href="#_images">Images</a></li>
-<li><a href="#_iot_internet_of_things">IoT (Internet of Things)</a></li>
-<li><a href="#_logging">Logging</a></li>
-<li><a href="#_machine_learning">Machine Learning</a></li>
-<li><a href="#_messaging">Messaging</a></li>
-<li><a href="#_miscellaneous">Miscellaneous</a></li>
-<li><a href="#_natural_language_processing">Natural Language Processing</a></li>
-<li><a href="#_networking">Networking</a></li>
-<li><a href="#_opengl">OpenGL</a></li>
-<li><a href="#_orm">ORM</a></li>
-<li><a href="#_package_management">Package Management</a></li>
-<li><a href="#_query_language">Query Language</a></li>
-<li><a href="#_resource_embedding">Resource Embedding</a></li>
-<li><a href="#_science_and_data_analysis">Science and Data Analysis</a></li>
-<li><a href="#_security">Security</a></li>
-<li><a href="#_serialization">Serialization</a></li>
-<li><a href="#_server_applications">Server Applications</a></li>
-<li><a href="#_template_engines">Template Engines</a></li>
-<li><a href="#_testing">Testing</a></li>
-<li><a href="#_text_processing">Text Processing</a></li>
-<li><a href="#_third_party_apis">Third-party APIs</a></li>
-<li><a href="#_utilities">Utilities</a></li>
-<li><a href="#_validation">Validation</a></li>
-<li><a href="#_version_control">Version Control</a></li>
-<li><a href="#_video">Video</a></li>
-<li><a href="#_web_frameworks">Web Frameworks</a>
-<ul class="sectlevel2">
-<li><a href="#_middlewares">Middlewares</a></li>
-<li><a href="#_routers">Routers</a></li>
-</ul>
-</li>
-<li><a href="#_windows">Windows</a></li>
-<li><a href="#_xml">XML</a></li>
-<li><a href="#_tools">Tools</a>
-<ul class="sectlevel1">
-<li><a href="#_code_analysis">Code Analysis</a></li>
-<li><a href="#_editor_plugins">Editor Plugins</a></li>
-<li><a href="#_go_generate_tools">Go Generate Tools</a></li>
-<li><a href="#_go_tools">Go Tools</a></li>
-<li><a href="#_software_packages">Software Packages</a>
-<ul class="sectlevel2">
-<li><a href="#_devops_tools">DevOps Tools</a></li>
-<li><a href="#_other_software">Other Software</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#_resources">Resources</a>
-<ul class="sectlevel1">
-<li><a href="#_benchmarks">Benchmarks</a></li>
-<li><a href="#_conferences">Conferences</a></li>
-<li><a href="#_e_books">E-Books</a></li>
-<li><a href="#_gophers">Gophers</a></li>
-<li><a href="#_meetups">Meetups</a></li>
-<li><a href="#_twitter">Twitter</a></li>
-<li><a href="#_websites">Websites</a>
-<ul class="sectlevel2">
-<li><a href="#_tutorials">Tutorials</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>[![Build Status](<a href="https://travis-ci.org/avelino/awesome-go.svg?branch=master" class="bare">https://travis-ci.org/avelino/awesome-go.svg?branch=master</a>)](<a href="https://travis-ci.org/avelino/awesome-go" class="bare">https://travis-ci.org/avelino/awesome-go</a>) [![Awesome](<a href="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" class="bare">https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg</a>)](<a href="https://github.com/sindresorhus/awesome" class="bare">https://github.com/sindresorhus/awesome</a>) [![Slack Widget](<a href="https://s3.eu-central-1.amazonaws.com/ngtuna/join-us-on-slack.png" class="bare">https://s3.eu-central-1.amazonaws.com/ngtuna/join-us-on-slack.png</a>)](<a href="http://gophers.slack.com/messages/awesome" class="bare">http://gophers.slack.com/messages/awesome</a>)</p>
-</div>
-<div class="paragraph">
-<p>A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](<a href="https://github.com/vinta/awesome-python" class="bare">https://github.com/vinta/awesome-python</a>).</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_contributing">Contributing</h3>
-<div class="paragraph">
-<p>Please take a quick gander at the [contribution guidelines](<a href="https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md" class="bare">https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md</a>) first. Thanks to all [contributors](<a href="https://github.com/avelino/awesome-go/graphs/contributors" class="bare">https://github.com/avelino/awesome-go/graphs/contributors</a>); you rock!</p>
-</div>
-<div class="sect3">
-<h4 id="_strong_if_you_see_a_package_or_project_here_that_is_no_longer_maintained_or_is_not_a_good_fit_please_submit_a_pull_request_to_improve_this_file_thank_you_strong"><strong>If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!</strong></h4>
-
-</div>
-</div>
-<div class="sect2">
-<h3 id="_contents">Contents</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>[Awesome Go](#awesome-go)</p>
-</li>
-<li>
-<p>[Audio and Music](#audio-and-music)</p>
-</li>
-<li>
-<p>[Authentication and OAuth](#authentication-and-oauth)</p>
-</li>
-<li>
-<p>[Command Line](#command-line)</p>
-</li>
-<li>
-<p>[Configuration](#configuration)</p>
-</li>
-<li>
-<p>[Continuous Integration](#continuous-integration)</p>
-</li>
-<li>
-<p>[CSS Preprocessors](#css-preprocessors)</p>
-</li>
-<li>
-<p>[Data Structures](#data-structures)</p>
-</li>
-<li>
-<p>[Database](#database)</p>
-</li>
-<li>
-<p>[Database Drivers](#database-drivers)</p>
-</li>
-<li>
-<p>[Date and Time](#date-and-time)</p>
-</li>
-<li>
-<p>[Distributed Systems](#distributed-systems)</p>
-</li>
-<li>
-<p>[Email](#email)</p>
-</li>
-<li>
-<p>[Embeddable Scripting Languages](#embeddable-scripting-languages)</p>
-</li>
-<li>
-<p>[Files](#files)</p>
-</li>
-<li>
-<p>[Financial](#financial)</p>
-</li>
-<li>
-<p>[Forms](#forms)</p>
-</li>
-<li>
-<p>[Game Development](#game-development)</p>
-</li>
-<li>
-<p>[Generation and Generics](#generation-and-generics)</p>
-</li>
-<li>
-<p>[Go Compilers](#go-compilers)</p>
-</li>
-<li>
-<p>[Goroutines](#goroutines)</p>
-</li>
-<li>
-<p>[GUI](#gui)</p>
-</li>
-<li>
-<p>[Hardware](#hardware)</p>
-</li>
-<li>
-<p>[Images](#images)</p>
-</li>
-<li>
-<p>[IoT](#iot-internet-of-things)</p>
-</li>
-<li>
-<p>[Logging](#logging)</p>
-</li>
-<li>
-<p>[Machine Learning](#machine-learning)</p>
-</li>
-<li>
-<p>[Messaging](#messaging)</p>
-</li>
-<li>
-<p>[Miscellaneous](#miscellaneous)</p>
-</li>
-<li>
-<p>[Natural Language Processing](#natural-language-processing)</p>
-</li>
-<li>
-<p>[Networking](#networking)</p>
-</li>
-<li>
-<p>[OpenGL](#opengl)</p>
-</li>
-<li>
-<p>[ORM](#orm)</p>
-</li>
-<li>
-<p>[Package Management](#package-management)</p>
-</li>
-<li>
-<p>[Query Language](#query-language)</p>
-</li>
-<li>
-<p>[Resource Embedding](#resource-embedding)</p>
-</li>
-<li>
-<p>[Science and Data Analysis](#science-and-data-analysis)</p>
-</li>
-<li>
-<p>[Security](#security)</p>
-</li>
-<li>
-<p>[Serialization](#serialization)</p>
-</li>
-<li>
-<p>[Template Engines](#template-engines)</p>
-</li>
-<li>
-<p>[Testing](#testing)</p>
-</li>
-<li>
-<p>[Text Processing](#text-processing)</p>
-</li>
-<li>
-<p>[Third-party APIs](#third-party-apis)</p>
-</li>
-<li>
-<p>[Utilities](#utilities)</p>
-</li>
-<li>
-<p>[Validation](#validation)</p>
-</li>
-<li>
-<p>[Version Control](#version-control)</p>
-</li>
-<li>
-<p>[Video](#video)</p>
-</li>
-<li>
-<p>[Web Frameworks](#web-frameworks)</p>
-</li>
-<li>
-<p>[Middlewares](#middlewares)</p>
-</li>
-<li>
-<p>[Actual middlewares](#actual-middlewares)</p>
-</li>
-<li>
-<p>[Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)</p>
-</li>
-<li>
-<p>[Routers](#routers)</p>
-</li>
-<li>
-<p>[Windows](#windows)</p>
-</li>
-<li>
-<p>[XML](#xml)</p>
-</li>
-<li>
-<p>[Tools](#tools)</p>
-</li>
-<li>
-<p>[Code Analysis](#code-analysis)</p>
-</li>
-<li>
-<p>[Editor Plugins](#editor-plugins)</p>
-</li>
-<li>
-<p>[Go Generate Tools](#go-generate-tools)</p>
-</li>
-<li>
-<p>[Go Tools](#go-tools)</p>
-</li>
-<li>
-<p>[Software Packages](#software-packages)</p>
-</li>
-<li>
-<p>[DevOps Tools](#devops-tools)</p>
-</li>
-<li>
-<p>[Other Software](#other-software)</p>
-</li>
-<li>
-<p>[Server Applications](#server-applications)</p>
-</li>
-<li>
-<p>[Resources](#resources)</p>
-</li>
-<li>
-<p>[Benchmarks](#benchmarks)</p>
-</li>
-<li>
-<p>[Conferences](#conferences)</p>
-</li>
-<li>
-<p>[E-Books](#e-books)</p>
-</li>
-<li>
-<p>[Gophers](#gophers)</p>
-</li>
-<li>
-<p>[Meetups](#meetups)</p>
-</li>
-<li>
-<p>[Twitter](#twitter)</p>
-</li>
-<li>
-<p>[Websites](#websites)</p>
-</li>
-<li>
-<p>[Tutorials](#tutorials)</p>
-</li>
-</ul>
-</div>
-</div>
 <div class="sect1">
 <h2 id="_audio_and_music">Audio and Music</h2>
 <div class="sectionbody">
@@ -4771,13 +4431,14 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </div>
 </div>
 </div>
-<h1 id="_tools" class="sect0">Tools</h1>
+<div class="sect1">
+<h2 id="_tools">Tools</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p><strong>Go software and plugins.</strong></p>
 </div>
-<div class="sect1">
-<h2 id="_code_analysis">Code Analysis</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_code_analysis">Code Analysis</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4852,10 +4513,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_editor_plugins">Editor Plugins</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_editor_plugins">Editor Plugins</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4894,10 +4553,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_go_generate_tools">Go Generate Tools</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_go_generate_tools">Go Generate Tools</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4918,10 +4575,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_go_tools">Go Tools</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_go_tools">Go Tools</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4954,15 +4609,13 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_software_packages">Software Packages</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_software_packages">Software Packages</h3>
 <div class="paragraph">
 <p><strong>Software written in Go.</strong></p>
 </div>
-<div class="sect2">
-<h3 id="_devops_tools">DevOps Tools</h3>
+<div class="sect3">
+<h4 id="_devops_tools">DevOps Tools</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -5100,8 +4753,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_other_software">Other Software</h3>
+<div class="sect3">
+<h4 id="_other_software">Other Software</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -5250,13 +4903,15 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </div>
 </div>
 </div>
-<h1 id="_resources" class="sect0">Resources</h1>
+</div>
+<div class="sect1">
+<h2 id="_resources">Resources</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p><strong>Where to discover new Go libraries.</strong></p>
 </div>
-<div class="sect1">
-<h2 id="_benchmarks">Benchmarks</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_benchmarks">Benchmarks</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5304,10 +4959,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_conferences">Conferences</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_conferences">Conferences</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5346,10 +4999,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_e_books">E-Books</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_e_books">E-Books</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5385,10 +5036,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_gophers">Gophers</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_gophers">Gophers</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5421,10 +5070,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_meetups">Meetups</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_meetups">Meetups</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5529,10 +5176,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 <p><strong>Add the group of your city/country here (send <strong>PR</strong>)</strong></p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_twitter">Twitter</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_twitter">Twitter</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5550,10 +5195,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_websites">Websites</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_websites">Websites</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5621,8 +5264,8 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_tutorials">Tutorials</h3>
+<div class="sect3">
+<h4 id="_tutorials">Tutorials</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -5658,9 +5301,10 @@ provision Let&#8217;s Encrypt certificates and start a TLS server.</p>
 </div>
 </div>
 </div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-12-27 12:37:22 CST
+Last updated 2017-12-27 14:41:47 CST
 </div>
 </div>
 </body>
